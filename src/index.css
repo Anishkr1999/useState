@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-color: aqua;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:45vh;
+  width: 52vw;
+  background-color: blueviolet;
+  font-size: 8rem;
+  color: greenyellow;
+  border-radius: 15px;
+}
+.center button {
+padding: 20px;
+font-size: 2rem;
+border-radius: 5px;
+}
+.center:hover{
+  color: red;
+  background-color:black ;
+}
+ 
